@@ -1,11 +1,26 @@
-.logo-bar {
-    text-align: center;
-    position: inherit;
-    box-flex: initial;
-    width: 12%;
-    height: 100%;
-    background-color: chartreuse;
+/*tags*/
+
+input {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+a {
+    background-color: red;
+    border-radius: 25px;
+    text-decoration: none;
+    /* position: relative; */
+    margin: 7%;
+    padding: 5px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    color: whitesmoke;
+    margin-top: 100px;
+    border: 2px double gold;
+}
+
+
+/*header*/
 
 .logo {
     height: 150px;
@@ -13,19 +28,10 @@
     border: 5px solid skyblue;
 }
 
-a {
-    background-color: maroon;
-    text-decoration: none;
-    position: relative;
-    padding: 4px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: aquamarine;
-    margin-top: 100px;
-}
-
 .menu-bar {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: goldenrod;
     height: 100%;
     width: 44%;
@@ -58,27 +64,51 @@ a {
     height: 160px;
     border: 2px solid greenyellow;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.logo-bar {
+    text-align: center;
+    position: inherit;
+    box-flex: initial;
+    width: 12%;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+
+/*center*/
 
 .center {
     width: 100%;
     height: 20%;
     border: 2px solid greenyellow;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(center.jpg); */
 }
+
+.img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*footer*/
 
 .footer {
     background-image: url(footer.jpg);
     /* background-color: red; */
     width: 100%;
     height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid greenyellow;
     display: flex;
-}
-
-.img {
-    height: 50%;
-    width: 100%;
 }
 
 .info {
