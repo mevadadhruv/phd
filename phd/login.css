@@ -1,0 +1,135 @@
+/*tags*/
+
+input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}  
+
+a {
+    background-color: maroon;
+    text-decoration: none;
+    position: relative;
+    padding: 4px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: aquamarine;
+    margin-top: 100px;
+}
+
+
+/*header*/
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border: 5px solid skyblue;
+}
+
+.menu-bar {
+    display: flex;
+    background-color: goldenrod;
+    height: 100%;
+    width: 44%;
+    position: relative;
+    box-flex: initial;
+}
+
+.search-bar {
+    position: inherit;
+    height: 100%;
+    box-flex: initial;
+    width: 54%;
+    background-color: green;
+}
+
+.button {
+    border-radius: 25px;
+    border-color: gold;
+    color: blue;
+}
+
+.search-div {
+    margin: 10% 35%;
+    /* background-color: black; */
+    width: 36%;
+}
+
+.header {
+    width: 100%;
+    height: 160px;
+    border: 2px solid greenyellow;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-bar {
+    text-align: center;
+    position: inherit;
+    box-flex: initial;
+    width: 12%;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+
+/*center*/
+
+.center {
+    width: 100%;
+    height: 20%;
+    border: 2px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(center.jpg); */
+}
+
+.img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.login-div {
+    position: absolute;
+    border: 10px ridge gold;
+    background-color: red;
+    color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.login-form {
+    text-align: center;
+}
+
+
+/*footer*/
+
+.footer {
+    background-image: url(footer.jpg);
+    /* background-color: red; */
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid greenyellow;
+    display: flex;
+}
+
+.info {
+    /* background-color: black; */
+    /* color: antiquewhite; */
+    width: 100%;
+    margin: 5%;
+    /* position: absolute; */
+    text-align: center;
+    color: wheat;
+}
