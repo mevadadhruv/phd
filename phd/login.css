@@ -3,17 +3,20 @@
 input {
     margin-top: 20px;
     margin-bottom: 10px;
-}  
+}
 
 a {
-    background-color: maroon;
+    background-color: red;
+    border-radius: 25px;
     text-decoration: none;
-    position: relative;
-    padding: 4px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: aquamarine;
+    /* position: relative; */
+    margin: 7%;
+    padding: 5px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    color: whitesmoke;
     margin-top: 100px;
+    border: 2px double gold;
 }
 
 
@@ -27,6 +30,8 @@ a {
 
 .menu-bar {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: goldenrod;
     height: 100%;
     width: 44%;
